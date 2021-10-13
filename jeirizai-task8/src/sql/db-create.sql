@@ -1,0 +1,22 @@
+DROP DATABASE pr8;
+CREATE DATABASE pr8;
+USE pr8;
+
+CREATE TABLE users (
+  id    int PRIMARY KEY AUTO_INCREMENT,
+  login VARCHAR(16) UNIQUE NOT NULL
+);
+
+CREATE TABLE teams (
+  id   int PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(16) UNIQUE NOT NULL
+);
+
+CREATE TABLE users_teams (
+  user_id  int REFERENCES users (id) ON DELETE CASCADE,
+  team_id int REFERENCES teams (id) ON DELETE CASCADE,
+  PRIMARY KEY (user_id, team_id)
+);
+
+INSERT INTO users VALUE (DEFAULT, "ivanov");
+INSERT INTO teams VALUE (DEFAULT, "teamA");

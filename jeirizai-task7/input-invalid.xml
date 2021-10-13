@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p7:Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:p7="http://nure.ua/Chekan/practice7/entity" xmlns="http://nure.ua/Chekan/practice7"
+             xsi:schemaLocation="http://nure.ua/Chekan/practice7/entity input.xsd">
+
+    <MedicalCard>
+        <Name>Kateryna</Name>
+        <Diagnosis>Sore throat</Diagnosis>
+        <Diagnosis healed="true">Headache</Diagnosis>
+        <Diagnosis>Stomach ache</Diagnosis>
+        <Diagnosis>Tooth pain</Diagnosis>
+    </MedicalCard>
+
+    <MedicalCard>
+        <Name>Julia</Name>
+        <Diagnosis>Headache</Diagnosis>
+        <Diagnosis healed="true">Tooth pain</Diagnosis>
+        <Diagnosis healed="true">Stomach ache</Diagnosis>
+    </MedicalCard>
+
+    <MedicalCard>
+        <Name>Tom</Name>
+        <Diagnosis>Headache</Diagnosis>
+        <Diagnosis healed="true">Sore throat</Diagnosis>
+    </MedicalCard>
+</p7:Hospital>

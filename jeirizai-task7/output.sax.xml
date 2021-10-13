@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Hospital>
+<MedicalCard>
+<Name>Tom</Name>
+<Diagnosis>Headache</Diagnosis>
+<Diagnosis healed="true">Sore throat</Diagnosis>
+</MedicalCard>
+<MedicalCard>
+<Name>Julia</Name>
+<Diagnosis>Headache</Diagnosis>
+<Diagnosis healed="true">Tooth pain</Diagnosis>
+<Diagnosis healed="true">Stomach ache</Diagnosis>
+</MedicalCard>
+<MedicalCard>
+<Name>Kateryna</Name>
+<Diagnosis>Sore throat</Diagnosis>
+<Diagnosis healed="true">Headache</Diagnosis>
+<Diagnosis>Stomach ache</Diagnosis>
+<Diagnosis>Tooth pain</Diagnosis>
+</MedicalCard>
+</Hospital>

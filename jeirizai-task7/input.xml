@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="input.xsd">
+
+    <MedicalCard>
+        <Name>Kateryna</Name>
+        <Diagnosis>Sore throat</Diagnosis>
+        <Diagnosis healed="true">Headache</Diagnosis>
+        <Diagnosis>Stomach ache</Diagnosis>
+        <Diagnosis>Tooth pain</Diagnosis>
+    </MedicalCard>
+
+    <MedicalCard>
+        <Name>Julia</Name>
+        <Diagnosis>Headache</Diagnosis>
+        <Diagnosis healed="true">Tooth pain</Diagnosis>
+        <Diagnosis healed="true">Stomach ache</Diagnosis>
+    </MedicalCard>
+
+    <MedicalCard>
+        <Name>Tom</Name>
+        <Diagnosis>Headache</Diagnosis>
+        <Diagnosis healed="true">Sore throat</Diagnosis>
+    </MedicalCard>
+</Hospital>
